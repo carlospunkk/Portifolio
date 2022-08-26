@@ -6,9 +6,9 @@ meu nome é Carlos iniciei na área de Ti desde 2012 na escola Técnica Estadual
 curso focado em programação embarcada utilizamos VB , Banco de dados , Excel Avançado , Java , Algortimos , Redes entre outras matérias.
 
 
-# intuito deste Portifólio é mostrar a minha evolução na carreira e também conquistar minha primeira vaga como desenvolvedor web, focado sempre no aprendizado continuo em novas técnologias.
+Intuito deste portifólio é mostrar a minha evolução na carreira e também conquistar minha primeira vaga como desenvolvedor web, focado sempre no aprendizado continuo em novas técnologias.
 
-# técnologias usadas neste projeto
+# Técnologias usadas neste projeto
 HTML  |  CSS 
 
 # Abas 
