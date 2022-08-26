@@ -1,0 +1,432 @@
+/*resetar o body  e outras tags*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 3px;
+  color: var(--cinza-claro)
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/*variaveis cores*/
+:root {
+  --preto-estranho: #1c1d20;
+  --cinza-escuro: #6e6c75;
+  --prata-metallico: #a8a4af;
+  --cinza-claro: #d6d6d7;
+  --platina: #e9eaec;
+}
+
+.all {
+  background-color: black
+}
+
+/*header*/
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*Menu*/
+.titulo-nome {
+  margin-left: 10px;
+}
+
+nav {
+  width: 1000px;
+
+}
+
+.menu {
+  display: flex;
+  background-image: linear-gradient(var(--cinza-escuro), var(--preto-estranho));
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--cinza-claro)
+}
+
+ul.menu__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #1c1d20;
+}
+
+.menu__list__item a {
+  display: flex;
+  color: #e9eaec;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu__list__item a:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  color: var(--preto-estranho);
+  border-radius: 10px;
+  padding: 1px;
+  color: aquamarine;
+}
+
+
+
+/*Apresentação e foto*/
+.title {
+  background: var(--preto-estranho);
+  border-radius: 0px 0px 150px 150px;
+  color: var(--cinza-claro);
+}
+
+.title__container {
+  width: 80%;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.title__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+
+}
+
+
+
+/*sobre mim*/
+.about {
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.about__container {
+  margin-top: 50px;
+  width: 75%;
+  margin-left: 15px;
+  padding-left: 5px;
+
+
+}
+
+.about__container p {
+  font-size: 22px;
+}
+
+.about__title {
+  color: var(--cinza-claro);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 30px;
+}
+
+/*Links */
+.links-- {
+  margin-right: 600px;
+  margin-left: 600px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline var(--preto-estranho);
+  font-family: 'Courier New', Courier, monospace;
+  color: aquamarine;
+  border-radius: 10px;
+
+
+}
+
+.link {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+
+
+
+
+}
+
+.title__network {
+  display: flex;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  background-image: linear-gradient(aquamarine, black);
+}
+
+.title__network__item {}
+
+
+
+.title__network__item:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.title__network__item a {
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--preto-estranho);
+  padding: 4px;
+  color: var(--cinza-claro);
+}
+
+.title__network__item a:hover {
+  background: aquamarine;
+  color: var(--preto-estranho);
+}
+
+
+/*hobbies*/
+.hobbies {}
+
+.hobbies__container {
+
+  width: 75%;
+  margin-left: 15px;
+  padding-left: 5px;
+
+
+}
+
+.hobbies__title {
+  color: var(--cinza-claro);
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 30px;
+}
+
+.hobbies__paragraph {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+}
+
+
+/*skills*/
+.skills-- {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline var(--preto-estranho);
+  font-family: 'Courier New', Courier, monospace;
+  color: aquamarine;
+}
+
+.skills {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 150px 150px;
+  color: var(--cinza-claro);
+
+
+}
+
+.skills__network {
+  display: flex;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+.skills__network__item {
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 4px;
+  color: var(--cinza-claro);
+}
+
+
+
+.skills__network__item a:hover {
+
+  color: aquamarine;
+
+}
+
+
+
+/*formação academica*/
+.academic__title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline var(--preto-estranho);
+  font-family: 'Courier New', Courier, monospace;
+  color: aquamarine;
+
+
+}
+
+.academic__courses {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.academic__courses__list {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+
+}
+
+.academic__courses__item__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+}
+
+.academic__courses__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  background-image: linear-gradient(aquamarine, black);
+}
+
+/*experiencia profissional*/
+
+.experience__img {
+  border-radius: 10px;
+
+}
+
+.experience__section__title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline var(--preto-estranho);
+  font-family: 'Courier New', Courier, monospace;
+  color: aquamarine;
+}
+
+
+.experiencie__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 100px;
+
+}
+
+.experience__info {
+  width: 300px;
+  height: 150px;
+  margin-right: 100px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.experience__description {
+  margin-top: 20px;
+
+
+}
+
+.experiencia__botao--repo {
+  color: var(--cinza-claro);
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-image: linear-gradient(aquamarine, black);
+  border-radius: 10px;
+}
+
+.experiencia__botao--repo:hover {
+  color: var(--preto-estranho);
+  background-image: linear-gradient(black, aquamarine);
+}
+
+.experiencia__botao--demo {
+  color: var(--cinza-claro);
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-image: linear-gradient(aquamarine, black);
+  border-radius: 10px;
+}
+
+.experiencia__botao--demo:hover {
+  color: var(--preto-estranho);
+  background-image: linear-gradient(black, aquamarine);
+}
+
+.footer {
+  display: flex;
+  height: 80px;
+  background: var(--preto-estranho);
+  border-radius: 150px 150px 0px 0px;
+  color: var(--cinza-claro);
+
+}
+
+.footer__rodape {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer__rodape a {
+  display: flex;
+  margin-left: 10px;
+  color: var(--cinza-claro);
+}
+
+.footer__rodape span {
+  margin-right: 4px;
+
+}
+
+.footer__rodape span:hover {
+  color: aquamarine;
+}
+
+.texto-desenvolvido {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
