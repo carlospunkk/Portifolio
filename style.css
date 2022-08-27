@@ -55,7 +55,8 @@ nav {
   background-image: linear-gradient(var(--cinza-escuro), var(--preto-estranho));
   align-items: center;
   flex-wrap: wrap;
-  color: var(--cinza-claro)
+  color: var(--cinza-claro);
+  justify-content: space-around;
 }
 
 ul.menu__list {
