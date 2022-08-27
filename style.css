@@ -1,4 +1,4 @@
-/*resetar o body  e outras tags*/
+/*resetar o body */
 body {
   margin: 0;
   padding: 0;
@@ -17,8 +17,6 @@ li {
 a {
   text-decoration: none;
 }
-
-
 
 /*variaveis cores*/
 :root {
@@ -83,8 +81,6 @@ ul.menu__list {
   color: aquamarine;
 }
 
-
-
 /*Apresentação e foto*/
 .title {
   background: var(--preto-estranho);
@@ -106,17 +102,11 @@ ul.menu__list {
 .desc {
   margin-top: 100px;
   margin-bottom: 50px;
-
-
 }
-
-
 
 /*sobre mim*/
 .about {
   font-family: 'Courier New', Courier, monospace;
-
-
 }
 
 .about__container {
@@ -124,8 +114,6 @@ ul.menu__list {
   width: 75%;
   margin-left: 15px;
   padding-left: 5px;
-
-
 }
 
 .about__container p {
@@ -151,18 +139,12 @@ ul.menu__list {
   font-family: 'Courier New', Courier, monospace;
   color: aquamarine;
   border-radius: 10px;
-
-
 }
 
 .link {
   margin-top: 20px;
   width: 100%;
   height: 100px;
-
-
-
-
 }
 
 .title__network {
@@ -175,10 +157,6 @@ ul.menu__list {
   align-items: flex-end;
   background-image: linear-gradient(aquamarine, black);
 }
-
-.title__network__item {}
-
-
 
 .title__network__item:hover {
   transform: scale(1.1);
@@ -201,7 +179,7 @@ ul.menu__list {
 
 
 /*hobbies*/
-.hobbies {}
+
 
 .hobbies__container {
 
